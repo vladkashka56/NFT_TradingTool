@@ -1,0 +1,26 @@
+input {
+    border: 1px solid rgba(0,0,0,0.1);
+    background: #fff;
+    padding: 5px 7px;
+    font-size: inherit;
+    border-radius: 3px;
+    font-weight: normal;
+    outline: none
+}
+
+
+.btn-active {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    z-index: 2;
+    outline: none !important;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.ReactTable {
+    padding: 15px;
+}
